@@ -9,11 +9,10 @@ def convert():
 
 window = tk.Tk()
 window.title("Mile to Km Converter")
-window.geometry("300x150")
 window.resizable(width=False, height=False)
 window.config(padx=25, pady=25)
 
-miles_entry = tk.Entry(width=10)
+miles_entry = tk.Entry(width=7)
 miles_entry.insert(index="end", string="0")
 miles_entry.grid(column=1, row=0)
 
