@@ -22,7 +22,7 @@ miles_label.grid(column=2, row=0)
 equal_label = tk.Label(text="is equal to", font=("Arial", 20))
 equal_label.grid(column=0, row=1)
 
-km_converted_label = tk.Label(text="0", font=("Arial"))
+km_converted_label = tk.Label(text="0", font="Arial")
 km_converted_label.grid(column=1, row=1)
 
 km_label = tk.Label(text="Km", font=("Arial", 20, "bold"))
